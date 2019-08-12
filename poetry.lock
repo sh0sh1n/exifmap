@@ -1,14 +1,26 @@
 [[package]]
 category = "main"
-description = "Read Exif metadata from tiff and jpeg files."
-name = "exifread"
+description = "Python 3.4 Enum backported to 3.3, 3.2, 3.1, 2.7, 2.6, 2.5, and 2.4"
+name = "enum34"
 optional = false
 python-versions = "*"
-version = "2.1.2"
+version = "1.1.6"
+
+[[package]]
+category = "main"
+description = "Read and modify image EXIF metadata using Python."
+name = "exif"
+optional = false
+python-versions = "*"
+version = "0.8.1"
+
+[package.dependencies]
+enum34 = "*"
 
 [metadata]
-content-hash = "3391c176a0f1ffa5c2b4c8a5661f80b6316aa0e9919d59c49505ecf686b6027f"
+content-hash = "0d30ed232f41c14bea70e43696385296e6ce527fd3e1e2672e6635f7b638d1fd"
 python-versions = "^3.7"
 
 [metadata.hashes]
-exifread = ["4aa9d227db5c4cd65d87520076140a6f84e33363e08e649b87c7afec6bab60ab", "79e244f2eb466709029e8806fe5e2cdd557870c3db5f68954db0ef548d9320ad"]
+enum34 = ["2d81cbbe0e73112bdfe6ef8576f2238f2ba27dd0d55752a776c41d38b7da2850", "644837f692e5f550741432dd3f223bbb9852018674981b1664e5dc339387588a", "6bd0f6ad48ec2aa117d3d141940d484deccda84d4fcd884f5c3d93c23ecd8c79", "8ad8c4783bf61ded74527bffb48ed9b54166685e4230386a9ed9b1279e2df5b1"]
+exif = ["108236768be2d68cbe5b41297dc67a3d5dcb2afcbbe1de84fc046f4e00f04ca0", "ae41ed65cd3d51dafb0e8adccc1280fc39d8c27bdffd0581417b1e89352794a7"]
