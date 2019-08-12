@@ -1,0 +1,14 @@
+[[package]]
+category = "main"
+description = "Read Exif metadata from tiff and jpeg files."
+name = "exifread"
+optional = false
+python-versions = "*"
+version = "2.1.2"
+
+[metadata]
+content-hash = "3391c176a0f1ffa5c2b4c8a5661f80b6316aa0e9919d59c49505ecf686b6027f"
+python-versions = "^3.7"
+
+[metadata.hashes]
+exifread = ["4aa9d227db5c4cd65d87520076140a6f84e33363e08e649b87c7afec6bab60ab", "79e244f2eb466709029e8806fe5e2cdd557870c3db5f68954db0ef548d9320ad"]
